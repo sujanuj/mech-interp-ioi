@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# Model weights / HF cache (never commit these - they're huge and re-downloadable)
+*.safetensors
+*.bin
+*.pt
+*.pth
+.cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Results that are large or easily regenerated can go here later if needed,
+# but for now we WANT results/*.json tracked -- they're small and are the
+# actual evidence this project produces. Don't ignore results/.

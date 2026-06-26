@@ -1,0 +1,1802 @@
+[
+  {
+    "clean_prompt": "When Jack and Rose went to the store, Jack gave a drink to",
+    "corrupted_prompt": "When Jack and Rose went to the store, Rose gave a drink to",
+    "name_a": "Jack",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Jack",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Dan and Tim were at the party, Dan gave a gift to",
+    "corrupted_prompt": "While Dan and Tim were at the party, Tim gave a gift to",
+    "name_a": "Dan",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "Dan",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Jack and Kate were at the party, Jack gave a gift to",
+    "corrupted_prompt": "While Jack and Kate were at the party, Kate gave a gift to",
+    "name_a": "Jack",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Jack",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Lucy and Joe went to the park, and Lucy gave the ball to",
+    "corrupted_prompt": "Then Lucy and Joe went to the park, and Joe gave the ball to",
+    "name_a": "Lucy",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Lucy",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Tim and Mike left the office, Tim handed the keys to",
+    "corrupted_prompt": "After Tim and Mike left the office, Mike handed the keys to",
+    "name_a": "Tim",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "Tim",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Mike and Sarah left the office, Mike handed the keys to",
+    "corrupted_prompt": "After Mike and Sarah left the office, Sarah handed the keys to",
+    "name_a": "Mike",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Mike",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Amy and Ray went to the park, and Amy gave the ball to",
+    "corrupted_prompt": "Then Amy and Ray went to the park, and Ray gave the ball to",
+    "name_a": "Amy",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "Amy",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Kate and Sarah went to the store, Kate gave a drink to",
+    "corrupted_prompt": "When Kate and Sarah went to the store, Sarah gave a drink to",
+    "name_a": "Kate",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Kate",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Sue and Sam were at the party, Sue gave a gift to",
+    "corrupted_prompt": "While Sue and Sam were at the party, Sam gave a gift to",
+    "name_a": "Sue",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Sue",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Amy and Sarah left the office, Amy handed the keys to",
+    "corrupted_prompt": "After Amy and Sarah left the office, Sarah handed the keys to",
+    "name_a": "Amy",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Amy",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Rose and Sam went to the park, and Rose gave the ball to",
+    "corrupted_prompt": "Then Rose and Sam went to the park, and Sam gave the ball to",
+    "name_a": "Rose",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Rose",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Amy and Eve were at the party, Amy gave a gift to",
+    "corrupted_prompt": "While Amy and Eve were at the party, Eve gave a gift to",
+    "name_a": "Amy",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Amy",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Tim and Dan went to the store, Tim gave a drink to",
+    "corrupted_prompt": "When Tim and Dan went to the store, Dan gave a drink to",
+    "name_a": "Tim",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Tim",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Amy and John went to the store, Amy gave a drink to",
+    "corrupted_prompt": "When Amy and John went to the store, John gave a drink to",
+    "name_a": "Amy",
+    "name_b": "John",
+    "clean_answer": "John",
+    "corrupted_answer": "Amy",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Jane and Jack went to the store, Jane gave a drink to",
+    "corrupted_prompt": "When Jane and Jack went to the store, Jack gave a drink to",
+    "name_a": "Jane",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Jane",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Liz and Eve left the office, Liz handed the keys to",
+    "corrupted_prompt": "After Liz and Eve left the office, Eve handed the keys to",
+    "name_a": "Liz",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Liz",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Emma and Jane left the office, Emma handed the keys to",
+    "corrupted_prompt": "After Emma and Jane left the office, Jane handed the keys to",
+    "name_a": "Emma",
+    "name_b": "Jane",
+    "clean_answer": "Jane",
+    "corrupted_answer": "Emma",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Ray and Tom went to the park, and Ray gave the ball to",
+    "corrupted_prompt": "Then Ray and Tom went to the park, and Tom gave the ball to",
+    "name_a": "Ray",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Ray",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Joe and Emma went to the park, and Joe gave the ball to",
+    "corrupted_prompt": "Then Joe and Emma went to the park, and Emma gave the ball to",
+    "name_a": "Joe",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Joe",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Mike and Amy were at the party, Mike gave a gift to",
+    "corrupted_prompt": "While Mike and Amy were at the party, Amy gave a gift to",
+    "name_a": "Mike",
+    "name_b": "Amy",
+    "clean_answer": "Amy",
+    "corrupted_answer": "Mike",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Tom and Sam were at the party, Tom gave a gift to",
+    "corrupted_prompt": "While Tom and Sam were at the party, Sam gave a gift to",
+    "name_a": "Tom",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Tom",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Sarah and Kate left the office, Sarah handed the keys to",
+    "corrupted_prompt": "After Sarah and Kate left the office, Kate handed the keys to",
+    "name_a": "Sarah",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Sarah",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Ray and Sarah left the office, Ray handed the keys to",
+    "corrupted_prompt": "After Ray and Sarah left the office, Sarah handed the keys to",
+    "name_a": "Ray",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Ray",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Amy and Paul left the office, Amy handed the keys to",
+    "corrupted_prompt": "After Amy and Paul left the office, Paul handed the keys to",
+    "name_a": "Amy",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Amy",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Max and Tom were at the party, Max gave a gift to",
+    "corrupted_prompt": "While Max and Tom were at the party, Tom gave a gift to",
+    "name_a": "Max",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Max",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Sam and Joe went to the park, and Sam gave the ball to",
+    "corrupted_prompt": "Then Sam and Joe went to the park, and Joe gave the ball to",
+    "name_a": "Sam",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Sam",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Kate and Anna went to the park, and Kate gave the ball to",
+    "corrupted_prompt": "Then Kate and Anna went to the park, and Anna gave the ball to",
+    "name_a": "Kate",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Kate",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Anna and Mary left the office, Anna handed the keys to",
+    "corrupted_prompt": "After Anna and Mary left the office, Mary handed the keys to",
+    "name_a": "Anna",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Anna",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Eve and Tom went to the store, Eve gave a drink to",
+    "corrupted_prompt": "When Eve and Tom went to the store, Tom gave a drink to",
+    "name_a": "Eve",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Eve",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Sue and Mike went to the park, and Sue gave the ball to",
+    "corrupted_prompt": "Then Sue and Mike went to the park, and Mike gave the ball to",
+    "name_a": "Sue",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "Sue",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Mary and Tom were at the party, Mary gave a gift to",
+    "corrupted_prompt": "While Mary and Tom were at the party, Tom gave a gift to",
+    "name_a": "Mary",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Mary",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Ray and Tim left the office, Ray handed the keys to",
+    "corrupted_prompt": "After Ray and Tim left the office, Tim handed the keys to",
+    "name_a": "Ray",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "Ray",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Tim and Emma went to the park, and Tim gave the ball to",
+    "corrupted_prompt": "Then Tim and Emma went to the park, and Emma gave the ball to",
+    "name_a": "Tim",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Tim",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Sue and Joe were at the party, Sue gave a gift to",
+    "corrupted_prompt": "While Sue and Joe were at the party, Joe gave a gift to",
+    "name_a": "Sue",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Sue",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Joe and Dan were at the party, Joe gave a gift to",
+    "corrupted_prompt": "While Joe and Dan were at the party, Dan gave a gift to",
+    "name_a": "Joe",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Joe",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Eve and Sue left the office, Eve handed the keys to",
+    "corrupted_prompt": "After Eve and Sue left the office, Sue handed the keys to",
+    "name_a": "Eve",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Eve",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Tom and Sam went to the store, Tom gave a drink to",
+    "corrupted_prompt": "When Tom and Sam went to the store, Sam gave a drink to",
+    "name_a": "Tom",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Tom",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Eve and Joe left the office, Eve handed the keys to",
+    "corrupted_prompt": "After Eve and Joe left the office, Joe handed the keys to",
+    "name_a": "Eve",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Eve",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Paul and Emma went to the store, Paul gave a drink to",
+    "corrupted_prompt": "When Paul and Emma went to the store, Emma gave a drink to",
+    "name_a": "Paul",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Paul",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Jane and Dan went to the store, Jane gave a drink to",
+    "corrupted_prompt": "When Jane and Dan went to the store, Dan gave a drink to",
+    "name_a": "Jane",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Jane",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Ray and Emma left the office, Ray handed the keys to",
+    "corrupted_prompt": "After Ray and Emma left the office, Emma handed the keys to",
+    "name_a": "Ray",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Ray",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Anna and Sam were at the party, Anna gave a gift to",
+    "corrupted_prompt": "While Anna and Sam were at the party, Sam gave a gift to",
+    "name_a": "Anna",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Anna",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Mary and Sarah went to the park, and Mary gave the ball to",
+    "corrupted_prompt": "Then Mary and Sarah went to the park, and Sarah gave the ball to",
+    "name_a": "Mary",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Mary",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Ray and Emma went to the store, Ray gave a drink to",
+    "corrupted_prompt": "When Ray and Emma went to the store, Emma gave a drink to",
+    "name_a": "Ray",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Ray",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Joe and Ben went to the store, Joe gave a drink to",
+    "corrupted_prompt": "When Joe and Ben went to the store, Ben gave a drink to",
+    "name_a": "Joe",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Joe",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then John and Sarah went to the park, and John gave the ball to",
+    "corrupted_prompt": "Then John and Sarah went to the park, and Sarah gave the ball to",
+    "name_a": "John",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "John",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Liz and Joe went to the store, Liz gave a drink to",
+    "corrupted_prompt": "When Liz and Joe went to the store, Joe gave a drink to",
+    "name_a": "Liz",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Liz",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Jack and Tom left the office, Jack handed the keys to",
+    "corrupted_prompt": "After Jack and Tom left the office, Tom handed the keys to",
+    "name_a": "Jack",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Jack",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Sarah and Mary went to the store, Sarah gave a drink to",
+    "corrupted_prompt": "When Sarah and Mary went to the store, Mary gave a drink to",
+    "name_a": "Sarah",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Sarah",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Paul and Anna went to the store, Paul gave a drink to",
+    "corrupted_prompt": "When Paul and Anna went to the store, Anna gave a drink to",
+    "name_a": "Paul",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Paul",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Eve and Paul went to the store, Eve gave a drink to",
+    "corrupted_prompt": "When Eve and Paul went to the store, Paul gave a drink to",
+    "name_a": "Eve",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Eve",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Sue and John were at the party, Sue gave a gift to",
+    "corrupted_prompt": "While Sue and John were at the party, John gave a gift to",
+    "name_a": "Sue",
+    "name_b": "John",
+    "clean_answer": "John",
+    "corrupted_answer": "Sue",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Liz and Sarah left the office, Liz handed the keys to",
+    "corrupted_prompt": "After Liz and Sarah left the office, Sarah handed the keys to",
+    "name_a": "Liz",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Liz",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Tom and Emma went to the store, Tom gave a drink to",
+    "corrupted_prompt": "When Tom and Emma went to the store, Emma gave a drink to",
+    "name_a": "Tom",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Tom",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Ben and Kate left the office, Ben handed the keys to",
+    "corrupted_prompt": "After Ben and Kate left the office, Kate handed the keys to",
+    "name_a": "Ben",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Ben",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Rose and Anna went to the store, Rose gave a drink to",
+    "corrupted_prompt": "When Rose and Anna went to the store, Anna gave a drink to",
+    "name_a": "Rose",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Rose",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Tim and Max went to the store, Tim gave a drink to",
+    "corrupted_prompt": "When Tim and Max went to the store, Max gave a drink to",
+    "name_a": "Tim",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Tim",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Liz and Sarah were at the party, Liz gave a gift to",
+    "corrupted_prompt": "While Liz and Sarah were at the party, Sarah gave a gift to",
+    "name_a": "Liz",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Liz",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Paul and Dan left the office, Paul handed the keys to",
+    "corrupted_prompt": "After Paul and Dan left the office, Dan handed the keys to",
+    "name_a": "Paul",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Paul",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Jane and Eve went to the park, and Jane gave the ball to",
+    "corrupted_prompt": "Then Jane and Eve went to the park, and Eve gave the ball to",
+    "name_a": "Jane",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Jane",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Ray and Sue went to the park, and Ray gave the ball to",
+    "corrupted_prompt": "Then Ray and Sue went to the park, and Sue gave the ball to",
+    "name_a": "Ray",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Ray",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Mary and Sue went to the park, and Mary gave the ball to",
+    "corrupted_prompt": "Then Mary and Sue went to the park, and Sue gave the ball to",
+    "name_a": "Mary",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Mary",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Anna and Sam left the office, Anna handed the keys to",
+    "corrupted_prompt": "After Anna and Sam left the office, Sam handed the keys to",
+    "name_a": "Anna",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Anna",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Sarah and Liz were at the party, Sarah gave a gift to",
+    "corrupted_prompt": "While Sarah and Liz were at the party, Liz gave a gift to",
+    "name_a": "Sarah",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "Sarah",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Sue and Anna went to the store, Sue gave a drink to",
+    "corrupted_prompt": "When Sue and Anna went to the store, Anna gave a drink to",
+    "name_a": "Sue",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Sue",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Eve and Sue were at the party, Eve gave a gift to",
+    "corrupted_prompt": "While Eve and Sue were at the party, Sue gave a gift to",
+    "name_a": "Eve",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Eve",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Joe and Tim left the office, Joe handed the keys to",
+    "corrupted_prompt": "After Joe and Tim left the office, Tim handed the keys to",
+    "name_a": "Joe",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "Joe",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Ben and Lucy were at the party, Ben gave a gift to",
+    "corrupted_prompt": "While Ben and Lucy were at the party, Lucy gave a gift to",
+    "name_a": "Ben",
+    "name_b": "Lucy",
+    "clean_answer": "Lucy",
+    "corrupted_answer": "Ben",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Sue and Dan went to the park, and Sue gave the ball to",
+    "corrupted_prompt": "Then Sue and Dan went to the park, and Dan gave the ball to",
+    "name_a": "Sue",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Sue",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Amy and Ray went to the store, Amy gave a drink to",
+    "corrupted_prompt": "When Amy and Ray went to the store, Ray gave a drink to",
+    "name_a": "Amy",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "Amy",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Max and Jane went to the store, Max gave a drink to",
+    "corrupted_prompt": "When Max and Jane went to the store, Jane gave a drink to",
+    "name_a": "Max",
+    "name_b": "Jane",
+    "clean_answer": "Jane",
+    "corrupted_answer": "Max",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Sam and Jane went to the store, Sam gave a drink to",
+    "corrupted_prompt": "When Sam and Jane went to the store, Jane gave a drink to",
+    "name_a": "Sam",
+    "name_b": "Jane",
+    "clean_answer": "Jane",
+    "corrupted_answer": "Sam",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Amy and Dan went to the park, and Amy gave the ball to",
+    "corrupted_prompt": "Then Amy and Dan went to the park, and Dan gave the ball to",
+    "name_a": "Amy",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Amy",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Emma and Eve left the office, Emma handed the keys to",
+    "corrupted_prompt": "After Emma and Eve left the office, Eve handed the keys to",
+    "name_a": "Emma",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Emma",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Liz and Kate left the office, Liz handed the keys to",
+    "corrupted_prompt": "After Liz and Kate left the office, Kate handed the keys to",
+    "name_a": "Liz",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Liz",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Joe and Ben went to the park, and Joe gave the ball to",
+    "corrupted_prompt": "Then Joe and Ben went to the park, and Ben gave the ball to",
+    "name_a": "Joe",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Joe",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Ray and Kate were at the party, Ray gave a gift to",
+    "corrupted_prompt": "While Ray and Kate were at the party, Kate gave a gift to",
+    "name_a": "Ray",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Ray",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Jane and Rose went to the store, Jane gave a drink to",
+    "corrupted_prompt": "When Jane and Rose went to the store, Rose gave a drink to",
+    "name_a": "Jane",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Jane",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then John and Liz went to the park, and John gave the ball to",
+    "corrupted_prompt": "Then John and Liz went to the park, and Liz gave the ball to",
+    "name_a": "John",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "John",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Ray and Sam went to the park, and Ray gave the ball to",
+    "corrupted_prompt": "Then Ray and Sam went to the park, and Sam gave the ball to",
+    "name_a": "Ray",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Ray",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Emma and Ben were at the party, Emma gave a gift to",
+    "corrupted_prompt": "While Emma and Ben were at the party, Ben gave a gift to",
+    "name_a": "Emma",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Emma",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Jack and Ray were at the party, Jack gave a gift to",
+    "corrupted_prompt": "While Jack and Ray were at the party, Ray gave a gift to",
+    "name_a": "Jack",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "Jack",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Mary and Jack were at the party, Mary gave a gift to",
+    "corrupted_prompt": "While Mary and Jack were at the party, Jack gave a gift to",
+    "name_a": "Mary",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Mary",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Sue and Ray went to the store, Sue gave a drink to",
+    "corrupted_prompt": "When Sue and Ray went to the store, Ray gave a drink to",
+    "name_a": "Sue",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "Sue",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Anna and Max went to the store, Anna gave a drink to",
+    "corrupted_prompt": "When Anna and Max went to the store, Max gave a drink to",
+    "name_a": "Anna",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Anna",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Dan and Ray went to the park, and Dan gave the ball to",
+    "corrupted_prompt": "Then Dan and Ray went to the park, and Ray gave the ball to",
+    "name_a": "Dan",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "Dan",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Max and Tim were at the party, Max gave a gift to",
+    "corrupted_prompt": "While Max and Tim were at the party, Tim gave a gift to",
+    "name_a": "Max",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "Max",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Amy and Liz went to the store, Amy gave a drink to",
+    "corrupted_prompt": "When Amy and Liz went to the store, Liz gave a drink to",
+    "name_a": "Amy",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "Amy",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Mary and Eve left the office, Mary handed the keys to",
+    "corrupted_prompt": "After Mary and Eve left the office, Eve handed the keys to",
+    "name_a": "Mary",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Mary",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Kate and Max went to the store, Kate gave a drink to",
+    "corrupted_prompt": "When Kate and Max went to the store, Max gave a drink to",
+    "name_a": "Kate",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Kate",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Rose and Paul went to the store, Rose gave a drink to",
+    "corrupted_prompt": "When Rose and Paul went to the store, Paul gave a drink to",
+    "name_a": "Rose",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Rose",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Jane and Mike went to the store, Jane gave a drink to",
+    "corrupted_prompt": "When Jane and Mike went to the store, Mike gave a drink to",
+    "name_a": "Jane",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "Jane",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Jack and Sue were at the party, Jack gave a gift to",
+    "corrupted_prompt": "While Jack and Sue were at the party, Sue gave a gift to",
+    "name_a": "Jack",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Jack",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Sam and John went to the park, and Sam gave the ball to",
+    "corrupted_prompt": "Then Sam and John went to the park, and John gave the ball to",
+    "name_a": "Sam",
+    "name_b": "John",
+    "clean_answer": "John",
+    "corrupted_answer": "Sam",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When John and Ray went to the store, John gave a drink to",
+    "corrupted_prompt": "When John and Ray went to the store, Ray gave a drink to",
+    "name_a": "John",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "John",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Sue and Tim went to the store, Sue gave a drink to",
+    "corrupted_prompt": "When Sue and Tim went to the store, Tim gave a drink to",
+    "name_a": "Sue",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "Sue",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Paul and Sarah went to the park, and Paul gave the ball to",
+    "corrupted_prompt": "Then Paul and Sarah went to the park, and Sarah gave the ball to",
+    "name_a": "Paul",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Paul",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Kate and Dan went to the park, and Kate gave the ball to",
+    "corrupted_prompt": "Then Kate and Dan went to the park, and Dan gave the ball to",
+    "name_a": "Kate",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Kate",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Sarah and Eve were at the party, Sarah gave a gift to",
+    "corrupted_prompt": "While Sarah and Eve were at the party, Eve gave a gift to",
+    "name_a": "Sarah",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Sarah",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Ben and Tom went to the store, Ben gave a drink to",
+    "corrupted_prompt": "When Ben and Tom went to the store, Tom gave a drink to",
+    "name_a": "Ben",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Ben",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Dan and Max went to the store, Dan gave a drink to",
+    "corrupted_prompt": "When Dan and Max went to the store, Max gave a drink to",
+    "name_a": "Dan",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Dan",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Dan and Mike left the office, Dan handed the keys to",
+    "corrupted_prompt": "After Dan and Mike left the office, Mike handed the keys to",
+    "name_a": "Dan",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "Dan",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Sarah and Mike left the office, Sarah handed the keys to",
+    "corrupted_prompt": "After Sarah and Mike left the office, Mike handed the keys to",
+    "name_a": "Sarah",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "Sarah",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When John and Mary went to the store, John gave a drink to",
+    "corrupted_prompt": "When John and Mary went to the store, Mary gave a drink to",
+    "name_a": "John",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "John",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Paul and Sue left the office, Paul handed the keys to",
+    "corrupted_prompt": "After Paul and Sue left the office, Sue handed the keys to",
+    "name_a": "Paul",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Paul",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Amy and Sam left the office, Amy handed the keys to",
+    "corrupted_prompt": "After Amy and Sam left the office, Sam handed the keys to",
+    "name_a": "Amy",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Amy",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Joe and Mary were at the party, Joe gave a gift to",
+    "corrupted_prompt": "While Joe and Mary were at the party, Mary gave a gift to",
+    "name_a": "Joe",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Joe",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Ray and Ben were at the party, Ray gave a gift to",
+    "corrupted_prompt": "While Ray and Ben were at the party, Ben gave a gift to",
+    "name_a": "Ray",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Ray",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Ben and Rose left the office, Ben handed the keys to",
+    "corrupted_prompt": "After Ben and Rose left the office, Rose handed the keys to",
+    "name_a": "Ben",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Ben",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Amy and Anna went to the park, and Amy gave the ball to",
+    "corrupted_prompt": "Then Amy and Anna went to the park, and Anna gave the ball to",
+    "name_a": "Amy",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Amy",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Jack and Joe left the office, Jack handed the keys to",
+    "corrupted_prompt": "After Jack and Joe left the office, Joe handed the keys to",
+    "name_a": "Jack",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Jack",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then John and Mike went to the park, and John gave the ball to",
+    "corrupted_prompt": "Then John and Mike went to the park, and Mike gave the ball to",
+    "name_a": "John",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "John",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Dan and Sam left the office, Dan handed the keys to",
+    "corrupted_prompt": "After Dan and Sam left the office, Sam handed the keys to",
+    "name_a": "Dan",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Dan",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Lucy and Ray went to the store, Lucy gave a drink to",
+    "corrupted_prompt": "When Lucy and Ray went to the store, Ray gave a drink to",
+    "name_a": "Lucy",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "Lucy",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Sam and Liz went to the store, Sam gave a drink to",
+    "corrupted_prompt": "When Sam and Liz went to the store, Liz gave a drink to",
+    "name_a": "Sam",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "Sam",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Mary and Dan went to the park, and Mary gave the ball to",
+    "corrupted_prompt": "Then Mary and Dan went to the park, and Dan gave the ball to",
+    "name_a": "Mary",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Mary",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Mike and Joe left the office, Mike handed the keys to",
+    "corrupted_prompt": "After Mike and Joe left the office, Joe handed the keys to",
+    "name_a": "Mike",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Mike",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Lucy and Jack went to the park, and Lucy gave the ball to",
+    "corrupted_prompt": "Then Lucy and Jack went to the park, and Jack gave the ball to",
+    "name_a": "Lucy",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Lucy",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Kate and Sarah were at the party, Kate gave a gift to",
+    "corrupted_prompt": "While Kate and Sarah were at the party, Sarah gave a gift to",
+    "name_a": "Kate",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Kate",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Jane and Emma went to the store, Jane gave a drink to",
+    "corrupted_prompt": "When Jane and Emma went to the store, Emma gave a drink to",
+    "name_a": "Jane",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Jane",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Kate and Anna went to the store, Kate gave a drink to",
+    "corrupted_prompt": "When Kate and Anna went to the store, Anna gave a drink to",
+    "name_a": "Kate",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Kate",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Kate and Jack left the office, Kate handed the keys to",
+    "corrupted_prompt": "After Kate and Jack left the office, Jack handed the keys to",
+    "name_a": "Kate",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Kate",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Kate and Rose went to the store, Kate gave a drink to",
+    "corrupted_prompt": "When Kate and Rose went to the store, Rose gave a drink to",
+    "name_a": "Kate",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Kate",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Sarah and Amy were at the party, Sarah gave a gift to",
+    "corrupted_prompt": "While Sarah and Amy were at the party, Amy gave a gift to",
+    "name_a": "Sarah",
+    "name_b": "Amy",
+    "clean_answer": "Amy",
+    "corrupted_answer": "Sarah",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Eve and Sam left the office, Eve handed the keys to",
+    "corrupted_prompt": "After Eve and Sam left the office, Sam handed the keys to",
+    "name_a": "Eve",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Eve",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Sarah and Eve went to the store, Sarah gave a drink to",
+    "corrupted_prompt": "When Sarah and Eve went to the store, Eve gave a drink to",
+    "name_a": "Sarah",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Sarah",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Ray and Eve were at the party, Ray gave a gift to",
+    "corrupted_prompt": "While Ray and Eve were at the party, Eve gave a gift to",
+    "name_a": "Ray",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Ray",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Mary and Kate left the office, Mary handed the keys to",
+    "corrupted_prompt": "After Mary and Kate left the office, Kate handed the keys to",
+    "name_a": "Mary",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Mary",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Jane and Sue went to the park, and Jane gave the ball to",
+    "corrupted_prompt": "Then Jane and Sue went to the park, and Sue gave the ball to",
+    "name_a": "Jane",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Jane",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Anna and Ben were at the party, Anna gave a gift to",
+    "corrupted_prompt": "While Anna and Ben were at the party, Ben gave a gift to",
+    "name_a": "Anna",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Anna",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Tom and Paul went to the park, and Tom gave the ball to",
+    "corrupted_prompt": "Then Tom and Paul went to the park, and Paul gave the ball to",
+    "name_a": "Tom",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Tom",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Mary and Jack went to the store, Mary gave a drink to",
+    "corrupted_prompt": "When Mary and Jack went to the store, Jack gave a drink to",
+    "name_a": "Mary",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Mary",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Sarah and Jack left the office, Sarah handed the keys to",
+    "corrupted_prompt": "After Sarah and Jack left the office, Jack handed the keys to",
+    "name_a": "Sarah",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Sarah",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Max and Eve went to the park, and Max gave the ball to",
+    "corrupted_prompt": "Then Max and Eve went to the park, and Eve gave the ball to",
+    "name_a": "Max",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Max",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Rose and Tom left the office, Rose handed the keys to",
+    "corrupted_prompt": "After Rose and Tom left the office, Tom handed the keys to",
+    "name_a": "Rose",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Rose",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Emma and Dan went to the park, and Emma gave the ball to",
+    "corrupted_prompt": "Then Emma and Dan went to the park, and Dan gave the ball to",
+    "name_a": "Emma",
+    "name_b": "Dan",
+    "clean_answer": "Dan",
+    "corrupted_answer": "Emma",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Rose and Paul left the office, Rose handed the keys to",
+    "corrupted_prompt": "After Rose and Paul left the office, Paul handed the keys to",
+    "name_a": "Rose",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Rose",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Sarah and Tom went to the store, Sarah gave a drink to",
+    "corrupted_prompt": "When Sarah and Tom went to the store, Tom gave a drink to",
+    "name_a": "Sarah",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Sarah",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Tim and Max went to the park, and Tim gave the ball to",
+    "corrupted_prompt": "Then Tim and Max went to the park, and Max gave the ball to",
+    "name_a": "Tim",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Tim",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Dan and Paul went to the store, Dan gave a drink to",
+    "corrupted_prompt": "When Dan and Paul went to the store, Paul gave a drink to",
+    "name_a": "Dan",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Dan",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Paul and Liz went to the park, and Paul gave the ball to",
+    "corrupted_prompt": "Then Paul and Liz went to the park, and Liz gave the ball to",
+    "name_a": "Paul",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "Paul",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Sarah and Paul were at the party, Sarah gave a gift to",
+    "corrupted_prompt": "While Sarah and Paul were at the party, Paul gave a gift to",
+    "name_a": "Sarah",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Sarah",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Jack and Lucy went to the park, and Jack gave the ball to",
+    "corrupted_prompt": "Then Jack and Lucy went to the park, and Lucy gave the ball to",
+    "name_a": "Jack",
+    "name_b": "Lucy",
+    "clean_answer": "Lucy",
+    "corrupted_answer": "Jack",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Mike and Joe were at the party, Mike gave a gift to",
+    "corrupted_prompt": "While Mike and Joe were at the party, Joe gave a gift to",
+    "name_a": "Mike",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Mike",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Ben and Sue were at the party, Ben gave a gift to",
+    "corrupted_prompt": "While Ben and Sue were at the party, Sue gave a gift to",
+    "name_a": "Ben",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Ben",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Tim and Eve left the office, Tim handed the keys to",
+    "corrupted_prompt": "After Tim and Eve left the office, Eve handed the keys to",
+    "name_a": "Tim",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Tim",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Eve and Ben went to the park, and Eve gave the ball to",
+    "corrupted_prompt": "Then Eve and Ben went to the park, and Ben gave the ball to",
+    "name_a": "Eve",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Eve",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Amy and Liz went to the park, and Amy gave the ball to",
+    "corrupted_prompt": "Then Amy and Liz went to the park, and Liz gave the ball to",
+    "name_a": "Amy",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "Amy",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After John and Sam left the office, John handed the keys to",
+    "corrupted_prompt": "After John and Sam left the office, Sam handed the keys to",
+    "name_a": "John",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "John",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then Sam and Mary went to the park, and Sam gave the ball to",
+    "corrupted_prompt": "Then Sam and Mary went to the park, and Mary gave the ball to",
+    "name_a": "Sam",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Sam",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Dan and Liz went to the park, and Dan gave the ball to",
+    "corrupted_prompt": "Then Dan and Liz went to the park, and Liz gave the ball to",
+    "name_a": "Dan",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "Dan",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Ray and Eve went to the store, Ray gave a drink to",
+    "corrupted_prompt": "When Ray and Eve went to the store, Eve gave a drink to",
+    "name_a": "Ray",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Ray",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Tom and Tim went to the store, Tom gave a drink to",
+    "corrupted_prompt": "When Tom and Tim went to the store, Tim gave a drink to",
+    "name_a": "Tom",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "Tom",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Tom and Emma went to the park, and Tom gave the ball to",
+    "corrupted_prompt": "Then Tom and Emma went to the park, and Emma gave the ball to",
+    "name_a": "Tom",
+    "name_b": "Emma",
+    "clean_answer": "Emma",
+    "corrupted_answer": "Tom",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Mary and Kate went to the store, Mary gave a drink to",
+    "corrupted_prompt": "When Mary and Kate went to the store, Kate gave a drink to",
+    "name_a": "Mary",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Mary",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Max and Sam went to the park, and Max gave the ball to",
+    "corrupted_prompt": "Then Max and Sam went to the park, and Sam gave the ball to",
+    "name_a": "Max",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Max",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Mike and Ben were at the party, Mike gave a gift to",
+    "corrupted_prompt": "While Mike and Ben were at the party, Ben gave a gift to",
+    "name_a": "Mike",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Mike",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Lucy and Tim were at the party, Lucy gave a gift to",
+    "corrupted_prompt": "While Lucy and Tim were at the party, Tim gave a gift to",
+    "name_a": "Lucy",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "Lucy",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Tim and Mary went to the store, Tim gave a drink to",
+    "corrupted_prompt": "When Tim and Mary went to the store, Mary gave a drink to",
+    "name_a": "Tim",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Tim",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Jane and Rose went to the park, and Jane gave the ball to",
+    "corrupted_prompt": "Then Jane and Rose went to the park, and Rose gave the ball to",
+    "name_a": "Jane",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Jane",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Kate and Amy were at the party, Kate gave a gift to",
+    "corrupted_prompt": "While Kate and Amy were at the party, Amy gave a gift to",
+    "name_a": "Kate",
+    "name_b": "Amy",
+    "clean_answer": "Amy",
+    "corrupted_answer": "Kate",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Eve and Jack went to the park, and Eve gave the ball to",
+    "corrupted_prompt": "Then Eve and Jack went to the park, and Jack gave the ball to",
+    "name_a": "Eve",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Eve",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When John and Sue went to the store, John gave a drink to",
+    "corrupted_prompt": "When John and Sue went to the store, Sue gave a drink to",
+    "name_a": "John",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "John",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Jane and Anna left the office, Jane handed the keys to",
+    "corrupted_prompt": "After Jane and Anna left the office, Anna handed the keys to",
+    "name_a": "Jane",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Jane",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Tim and Joe left the office, Tim handed the keys to",
+    "corrupted_prompt": "After Tim and Joe left the office, Joe handed the keys to",
+    "name_a": "Tim",
+    "name_b": "Joe",
+    "clean_answer": "Joe",
+    "corrupted_answer": "Tim",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Sam and Tom were at the party, Sam gave a gift to",
+    "corrupted_prompt": "While Sam and Tom were at the party, Tom gave a gift to",
+    "name_a": "Sam",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Sam",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Dan and Kate were at the party, Dan gave a gift to",
+    "corrupted_prompt": "While Dan and Kate were at the party, Kate gave a gift to",
+    "name_a": "Dan",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Dan",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "Then Jack and Mary went to the park, and Jack gave the ball to",
+    "corrupted_prompt": "Then Jack and Mary went to the park, and Mary gave the ball to",
+    "name_a": "Jack",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Jack",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "Then Ben and Mike went to the park, and Ben gave the ball to",
+    "corrupted_prompt": "Then Ben and Mike went to the park, and Mike gave the ball to",
+    "name_a": "Ben",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "Ben",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "After Kate and Jane left the office, Kate handed the keys to",
+    "corrupted_prompt": "After Kate and Jane left the office, Jane handed the keys to",
+    "name_a": "Kate",
+    "name_b": "Jane",
+    "clean_answer": "Jane",
+    "corrupted_answer": "Kate",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Mary and Eve were at the party, Mary gave a gift to",
+    "corrupted_prompt": "While Mary and Eve were at the party, Eve gave a gift to",
+    "name_a": "Mary",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Mary",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Mike and Eve went to the store, Mike gave a drink to",
+    "corrupted_prompt": "When Mike and Eve went to the store, Eve gave a drink to",
+    "name_a": "Mike",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "Mike",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Sue and Ray went to the park, and Sue gave the ball to",
+    "corrupted_prompt": "Then Sue and Ray went to the park, and Ray gave the ball to",
+    "name_a": "Sue",
+    "name_b": "Ray",
+    "clean_answer": "Ray",
+    "corrupted_answer": "Sue",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Lucy and Rose went to the store, Lucy gave a drink to",
+    "corrupted_prompt": "When Lucy and Rose went to the store, Rose gave a drink to",
+    "name_a": "Lucy",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Lucy",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Liz and Max were at the party, Liz gave a gift to",
+    "corrupted_prompt": "While Liz and Max were at the party, Max gave a gift to",
+    "name_a": "Liz",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Liz",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Max and Mary went to the store, Max gave a drink to",
+    "corrupted_prompt": "When Max and Mary went to the store, Mary gave a drink to",
+    "name_a": "Max",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Max",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Eve and Mike went to the store, Eve gave a drink to",
+    "corrupted_prompt": "When Eve and Mike went to the store, Mike gave a drink to",
+    "name_a": "Eve",
+    "name_b": "Mike",
+    "clean_answer": "Mike",
+    "corrupted_answer": "Eve",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "Then Mary and Liz went to the park, and Mary gave the ball to",
+    "corrupted_prompt": "Then Mary and Liz went to the park, and Liz gave the ball to",
+    "name_a": "Mary",
+    "name_b": "Liz",
+    "clean_answer": "Liz",
+    "corrupted_answer": "Mary",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "When Ben and Sam went to the store, Ben gave a drink to",
+    "corrupted_prompt": "When Ben and Sam went to the store, Sam gave a drink to",
+    "name_a": "Ben",
+    "name_b": "Sam",
+    "clean_answer": "Sam",
+    "corrupted_answer": "Ben",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Ray and Amy left the office, Ray handed the keys to",
+    "corrupted_prompt": "After Ray and Amy left the office, Amy handed the keys to",
+    "name_a": "Ray",
+    "name_b": "Amy",
+    "clean_answer": "Amy",
+    "corrupted_answer": "Ray",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "While Paul and Jack were at the party, Paul gave a gift to",
+    "corrupted_prompt": "While Paul and Jack were at the party, Jack gave a gift to",
+    "name_a": "Paul",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Paul",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Sarah and Mary were at the party, Sarah gave a gift to",
+    "corrupted_prompt": "While Sarah and Mary were at the party, Mary gave a gift to",
+    "name_a": "Sarah",
+    "name_b": "Mary",
+    "clean_answer": "Mary",
+    "corrupted_answer": "Sarah",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After Liz and Ben left the office, Liz handed the keys to",
+    "corrupted_prompt": "After Liz and Ben left the office, Ben handed the keys to",
+    "name_a": "Liz",
+    "name_b": "Ben",
+    "clean_answer": "Ben",
+    "corrupted_answer": "Liz",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Ben and Sarah left the office, Ben handed the keys to",
+    "corrupted_prompt": "After Ben and Sarah left the office, Sarah handed the keys to",
+    "name_a": "Ben",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Ben",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Mike and Jack left the office, Mike handed the keys to",
+    "corrupted_prompt": "After Mike and Jack left the office, Jack handed the keys to",
+    "name_a": "Mike",
+    "name_b": "Jack",
+    "clean_answer": "Jack",
+    "corrupted_answer": "Mike",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Jane and Sue went to the store, Jane gave a drink to",
+    "corrupted_prompt": "When Jane and Sue went to the store, Sue gave a drink to",
+    "name_a": "Jane",
+    "name_b": "Sue",
+    "clean_answer": "Sue",
+    "corrupted_answer": "Jane",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Tim and Paul went to the store, Tim gave a drink to",
+    "corrupted_prompt": "When Tim and Paul went to the store, Paul gave a drink to",
+    "name_a": "Tim",
+    "name_b": "Paul",
+    "clean_answer": "Paul",
+    "corrupted_answer": "Tim",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "After Jack and Max left the office, Jack handed the keys to",
+    "corrupted_prompt": "After Jack and Max left the office, Max handed the keys to",
+    "name_a": "Jack",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Jack",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "After Paul and Max left the office, Paul handed the keys to",
+    "corrupted_prompt": "After Paul and Max left the office, Max handed the keys to",
+    "name_a": "Paul",
+    "name_b": "Max",
+    "clean_answer": "Max",
+    "corrupted_answer": "Paul",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "Then John and Tim went to the park, and John gave the ball to",
+    "corrupted_prompt": "Then John and Tim went to the park, and Tim gave the ball to",
+    "name_a": "John",
+    "name_b": "Tim",
+    "clean_answer": "Tim",
+    "corrupted_answer": "John",
+    "template": "Then {A} and {B} went to the park, and {A} gave the ball to"
+  },
+  {
+    "clean_prompt": "While Emma and Tom were at the party, Emma gave a gift to",
+    "corrupted_prompt": "While Emma and Tom were at the party, Tom gave a gift to",
+    "name_a": "Emma",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Emma",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Tim and Kate went to the store, Tim gave a drink to",
+    "corrupted_prompt": "When Tim and Kate went to the store, Kate gave a drink to",
+    "name_a": "Tim",
+    "name_b": "Kate",
+    "clean_answer": "Kate",
+    "corrupted_answer": "Tim",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Mike and Rose were at the party, Mike gave a gift to",
+    "corrupted_prompt": "While Mike and Rose were at the party, Rose gave a gift to",
+    "name_a": "Mike",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Mike",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "While Tom and Sarah were at the party, Tom gave a gift to",
+    "corrupted_prompt": "While Tom and Sarah were at the party, Sarah gave a gift to",
+    "name_a": "Tom",
+    "name_b": "Sarah",
+    "clean_answer": "Sarah",
+    "corrupted_answer": "Tom",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "When Mike and Jane went to the store, Mike gave a drink to",
+    "corrupted_prompt": "When Mike and Jane went to the store, Jane gave a drink to",
+    "name_a": "Mike",
+    "name_b": "Jane",
+    "clean_answer": "Jane",
+    "corrupted_answer": "Mike",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "While Max and Rose were at the party, Max gave a gift to",
+    "corrupted_prompt": "While Max and Rose were at the party, Rose gave a gift to",
+    "name_a": "Max",
+    "name_b": "Rose",
+    "clean_answer": "Rose",
+    "corrupted_answer": "Max",
+    "template": "While {A} and {B} were at the party, {A} gave a gift to"
+  },
+  {
+    "clean_prompt": "After John and Eve left the office, John handed the keys to",
+    "corrupted_prompt": "After John and Eve left the office, Eve handed the keys to",
+    "name_a": "John",
+    "name_b": "Eve",
+    "clean_answer": "Eve",
+    "corrupted_answer": "John",
+    "template": "After {A} and {B} left the office, {A} handed the keys to"
+  },
+  {
+    "clean_prompt": "When Lucy and Tom went to the store, Lucy gave a drink to",
+    "corrupted_prompt": "When Lucy and Tom went to the store, Tom gave a drink to",
+    "name_a": "Lucy",
+    "name_b": "Tom",
+    "clean_answer": "Tom",
+    "corrupted_answer": "Lucy",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Lucy and Anna went to the store, Lucy gave a drink to",
+    "corrupted_prompt": "When Lucy and Anna went to the store, Anna gave a drink to",
+    "name_a": "Lucy",
+    "name_b": "Anna",
+    "clean_answer": "Anna",
+    "corrupted_answer": "Lucy",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  },
+  {
+    "clean_prompt": "When Emma and Lucy went to the store, Emma gave a drink to",
+    "corrupted_prompt": "When Emma and Lucy went to the store, Lucy gave a drink to",
+    "name_a": "Emma",
+    "name_b": "Lucy",
+    "clean_answer": "Lucy",
+    "corrupted_answer": "Emma",
+    "template": "When {A} and {B} went to the store, {A} gave a drink to"
+  }
+]
