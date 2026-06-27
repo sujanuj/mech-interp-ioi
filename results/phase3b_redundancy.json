@@ -1,0 +1,47 @@
+{
+  "candidate_heads": [
+    "L5H5",
+    "L8H6",
+    "L8H10"
+  ],
+  "individual_drops": {
+    "L5H5": 0.19002742767334002,
+    "L8H6": 1.5770617771148683,
+    "L8H10": 1.2207789802551272
+  },
+  "pairwise_results": [
+    {
+      "pair": [
+        "L5H5",
+        "L8H6"
+      ],
+      "individual_drop_1": 0.19002742767334002,
+      "individual_drop_2": 1.5770617771148683,
+      "expected_additive_drop": 1.7670892047882083,
+      "actual_combined_drop": 1.7580026245117188,
+      "synergy": -0.009086580276489453
+    },
+    {
+      "pair": [
+        "L5H5",
+        "L8H10"
+      ],
+      "individual_drop_1": 0.19002742767334002,
+      "individual_drop_2": 1.2207789802551272,
+      "expected_additive_drop": 1.4108064079284672,
+      "actual_combined_drop": 1.277772617340088,
+      "synergy": -0.13303379058837916
+    },
+    {
+      "pair": [
+        "L8H6",
+        "L8H10"
+      ],
+      "individual_drop_1": 1.5770617771148683,
+      "individual_drop_2": 1.2207789802551272,
+      "expected_additive_drop": 2.7978407573699955,
+      "actual_combined_drop": 2.37338755607605,
+      "synergy": -0.4244532012939457
+    }
+  ]
+}
